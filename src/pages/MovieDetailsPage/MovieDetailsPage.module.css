@@ -1,0 +1,30 @@
+.title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.movieCard {
+    display: flex;
+    align-items: flex-start; 
+  }
+  
+  .movieImage {
+    margin-right: 20px; 
+  }
+  
+  .movieDescription {
+    flex: 1; 
+  }
+
+  .backLink{
+    display: flex;
+    padding: 2px 10px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+    width: 90px;
+    margin-bottom: 10px;
+  }
